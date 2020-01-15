@@ -1,0 +1,78 @@
+body
+{
+    font-family: 'Quicksand', Open-sans, serif;
+    color: #ffffff;
+    margin:0;
+    background-image: url("dot-grid.png");
+    background-repeat: repeat;
+}
+
+.container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #262626;
+    border-radius: 25px 25px 25px 25px;
+    opacity: 0.7;
+}
+
+.userForm table{
+
+    margin-left: 15px;
+    padding: 20px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    width: 300px;
+    opacity: 1;
+    border-collapse: separate;
+    border-spacing: 0 1.2em;
+}
+
+table td {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+table tr{
+    margin-top: 30px;
+}
+
+.textInput{
+
+    margin-left: 50px;
+    border-radius: 25px 25px 25px 25px;
+    border: 0px;
+    height: 25px;
+    width: 250px;
+}
+
+.container h3{
+
+    font-size: 15px;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.saveButton {
+
+    float: left;
+    background-color:  #0080ff;
+    border-radius: 25px 25px 25px 25px;
+    border: none;
+    height: 35px;
+    width: 120px;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px 0px black;
+
+}
+
+

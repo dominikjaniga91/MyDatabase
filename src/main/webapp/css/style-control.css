@@ -1,0 +1,142 @@
+body
+{
+    font-family: 'Quicksand', Open-sans, serif;
+    color: #ffffff;
+    margin:0;
+    background-image: url("dot-grid.png");
+    background-repeat: repeat;
+}
+
+.firstContainer{
+
+    width: 100%;
+    height: 120px;
+    background-color: #262626;
+}
+
+.innerDiv{
+    position: absolute;
+    top: 10px;
+    right: 6%;
+
+}
+
+.headerContainer{
+
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    height: 90px;
+    width: 550px;
+
+}
+
+.controlButton1 input{
+    margin-left: 15px;
+    float: left;
+}
+
+.controlButton:hover {
+    background-color:  #004080;
+}
+
+.searchField{
+
+    float: left;
+    margin-left: 15px;
+    margin-top: 65px;
+    height: 33px;
+    width: 260px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    text-indent: 10px;
+    font-size: 12px
+}
+
+.controlButton {
+    float: left;
+    margin-left: 15px;
+    margin-top: 55px;
+    background-color:  #0080ff;
+    height: 35px;
+    width: 120px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.hideButton {
+    display: none;
+}
+
+#container{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+
+#container table{
+
+    padding: 10px;
+    letter-spacing: 1px;
+    border-collapse: separate;
+    border-spacing: 0 1.2em;
+
+}
+
+#tableHeader{
+
+    background-color: #0080ff;
+}
+
+table td {
+    width: 120px;
+    font-size: 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px dashed black;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    color: black;
+    padding: 5px;
+}
+
+table tr th{
+    font-size:15px;
+    background-color: #0080ff;
+    color:white;
+}
+
+
+
+.container h3{
+
+    font-size: 15px;
+    text-align: center;
+}
+
+#tooltip
+{
+    display: none;
+    position: absolute;
+    width: 220px;
+    height: 20px;
+    text-align: center;
+    background-color: #4d4d4d;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
+
+
+}
